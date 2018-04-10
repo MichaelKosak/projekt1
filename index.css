@@ -1,0 +1,60 @@
+body{
+    height: 500vh;
+    background: rgba(218, 216, 230, 0.35);
+    background-size: cover;
+  }
+ 
+.container{
+    border: 1px solid  white;
+}
+.back{
+    background-image: url(img/2.jpg);
+    height: 900px;
+}
+a:active{
+    color: white;
+}
+.name{
+    margin-right: 5px;
+    width: 25px;
+    color: white;
+}
+.menu1{
+    margin-top: 25px;
+}
+ul li.menu{
+   color: white;
+    display: inline;  
+  } 
+
+  .menu-item:hover { 
+          color: white;
+      text-decoration: none;
+      border-bottom: 1px solid white;
+  }
+  .menu-item{
+    float: right;
+    margin-right: 2em;
+    color: white;
+    padding: 14px 25px;
+  }
+  p{
+      margin-top: -10px;
+   padding-left: 45px;
+  }
+  .vita{
+      margin-top: 10%;
+  }
+  .ueberschrift{
+      margin-bottom: 20px;
+      color: rgb(198, 160, 160);
+      text-align: center;
+  }
+  .punkte{
+      color:  red;
+      margin-left: 17%;
+  }
+  .introduction{
+      color: white;
+      margin-top: 5em;
+  }
