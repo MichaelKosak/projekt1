@@ -48,7 +48,7 @@ body{
     text-align: center;
     margin-bottom: 15px;
     }
-  .box{
+  .hire{
     font-size: 17pt;
     color: white;
     width: auto;
@@ -57,7 +57,7 @@ body{
     border: 1px solid white;
     border-radius: 5px;
   }
-  .box:hover{
+  .hire:hover{
     color:#262934;
     background-color: white;
   }
@@ -71,20 +71,24 @@ body{
     color: rgb(233, 233, 243);
   }
   .about{
-    
     height: 100vh;
     width: 75%;
   }
-  .col-6{
-    display: flex;
+  .col-5{
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   }
-  .foto{
   
-    width: 250px;
-    height: 250px;
+  .fotobox{
     border: 1px solid white;
+    width: 350px;
+    height: 350px;
+    background-image: url(img/foto.jpg);
+    background-size: cover;
+    border-radius: 10%;
+    box-shadow: 10px 5px 2px rgba(0,0,50,0.4);
+    
   }
   
